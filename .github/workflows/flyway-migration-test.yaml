@@ -32,6 +32,6 @@ jobs:
           projectName: test-flyway-git
           engine: postgres-13
           migrationDirs: migrations  
-          databaseName: postgres 
+          databaseName: postgres01 
 env:
   FLYWAYHUB_ACCESS_TOKEN: ${{ secrets.FLYWAY_HUB_ACCESS_TOKEN }}
